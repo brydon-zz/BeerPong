@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Beer Pong</string>
+    <string name="menu_settings">Settings</string>
+    <string name="new_game">New Game</string>
+    <string name="exit">Exit</string>
+    <string name="touch">Touch</string>
+    <string name="keyboard">Keyboard</string>
+    <string name="tilt">Tilt</string>
+    <string name="two_player">Two Player (Touch)</string>
+
+</resources>

@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/new_game" 
+        android:showAsAction="never" 
+        android:title="@string/new_game" 
+        android:orderInCategory="99" android:enabled="true"></item>
+    
+    <item
+        android:id="@+id/menu_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/menu_settings">
+        <menu>
+            <group android:id="@+id/settingsGroup" android:checkableBehavior="all" android:orderInCategory="102">
+                <item android:id="@+id/submenu_keyboard" android:title="@string/keyboard" android:checkable="true" android:checked="false" android:enabled="true" android:showAsAction="never"/>
+                <item android:id="@+id/submenu_touch" android:title="@string/touch" android:checkable="true" android:checked="true" android:enabled="true" android:showAsAction="never"/>
+                <item android:id="@+id/submenu_tilt" android:title="@string/tilt" android:checkable="true" android:checked="false"/>
+                <item android:id="@+id/two_player" android:title="@string/two_player" android:checkable="true"/>
+            </group>
+        </menu>
+    </item>
+    
+    <item android:id="@+id/exit" 
+        android:orderInCategory="101" 
+        android:title="@string/exit" 
+        android:showAsAction="never" android:enabled="true"></item>
+
+</menu>
